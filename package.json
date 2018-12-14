@@ -1,0 +1,28 @@
+{
+    "name": "idl",
+    "displayName": "idl",
+    "description": "Syntax highlighting for IDL and variants (XPIDL, etc.)",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "idl",
+            "aliases": ["IDL", "idl"],
+            "extensions": ["idl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "idl",
+            "scopeName": "source.idl",
+            "path": "./syntaxes/idl.tmLanguage.json",
+            "embeddedLanguages": {
+                "meta.embedded.cpp": "cpp"
+            }
+        }]
+    }
+}
