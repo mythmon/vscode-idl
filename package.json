@@ -6,7 +6,7 @@
     "publisher": "mythmon",
     "repository": "https://github.com/mythmon/vscode-idl",
     "engines": {
-        "vscode": "^1.30.0"
+        "vscode": "^1.29.0"
     },
     "categories": [
         "Programming Languages"
