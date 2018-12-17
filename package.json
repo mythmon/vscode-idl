@@ -3,6 +3,8 @@
     "displayName": "idl",
     "description": "Syntax highlighting for IDL and variants (XPIDL, etc.)",
     "version": "0.0.1",
+    "publisher": "mythmon",
+    "repository": "https://github.com/mythmon/vscode-idl",
     "engines": {
         "vscode": "^1.30.0"
     },
