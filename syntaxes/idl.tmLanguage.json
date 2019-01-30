@@ -64,6 +64,10 @@
       "patterns": [
         {
           "name": "constant.numeric.decimal",
+          "match": "-?0"
+        },
+        {
+          "name": "constant.numeric.decimal",
           "match": "-?([1-9]\\d*|[1-9]\\d*\\.\\d*|\\.\\d+)"
         },
         {
